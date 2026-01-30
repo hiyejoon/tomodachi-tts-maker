@@ -43,74 +43,75 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  /* Y2K Retro Color Palette */
+  --primary: #FFD700;
+  --primary-foreground: #0066FF;
+  --sidebar-primary: #FF1493;
+  --sidebar-primary-foreground: #FFFFFF;
+  --chart-1: #00FFFF;
+  --chart-2: #FF1493;
+  --chart-3: #FFD700;
+  --chart-4: #0066FF;
+  --chart-5: #00FF00;
+  --radius: 1.2rem;
+  --background: #FFFACD;
+  --foreground: #0066FF;
+  --card: #FFFFFF;
+  --card-foreground: #0066FF;
+  --popover: #FFFFFF;
+  --popover-foreground: #0066FF;
+  --secondary: #FF1493;
+  --secondary-foreground: #FFFFFF;
+  --muted: #FFE4B5;
+  --muted-foreground: #0066FF;
+  --accent: #00FFFF;
+  --accent-foreground: #0066FF;
+  --destructive: #FF0000;
+  --destructive-foreground: #FFFFFF;
+  --border: #0066FF;
+  --input: #FFFFFF;
+  --ring: #FFD700;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #0066FF;
+  --sidebar-accent: #FFD700;
+  --sidebar-accent-foreground: #0066FF;
+  --sidebar-border: #0066FF;
+  --sidebar-ring: #FFD700;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  --primary: #FFD700;
+  --primary-foreground: #0066FF;
+  --sidebar-primary: #FF1493;
+  --sidebar-primary-foreground: #FFFFFF;
+  --background: #1a1a2e;
+  --foreground: #FFD700;
+  --card: #16213e;
+  --card-foreground: #FFD700;
+  --popover: #16213e;
+  --popover-foreground: #FFD700;
+  --secondary: #FF1493;
+  --secondary-foreground: #FFFFFF;
+  --muted: #0f3460;
+  --muted-foreground: #FFD700;
+  --accent: #00FFFF;
+  --accent-foreground: #0066FF;
+  --destructive: #FF0000;
+  --destructive-foreground: #FFFFFF;
+  --border: #0066FF;
+  --input: #0f3460;
+  --ring: #FFD700;
+  --chart-1: #00FFFF;
+  --chart-2: #FF1493;
+  --chart-3: #FFD700;
+  --chart-4: #0066FF;
+  --chart-5: #00FF00;
+  --sidebar: #16213e;
+  --sidebar-foreground: #FFD700;
+  --sidebar-accent: #FFD700;
+  --sidebar-accent-foreground: #0066FF;
+  --sidebar-border: #0066FF;
+  --sidebar-ring: #FFD700;
 }
 
 @layer base {
@@ -118,7 +119,12 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: "Quicksand", sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -134,24 +140,11 @@
 }
 
 @layer components {
-  /**
-   * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
-   */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
 
@@ -160,18 +153,73 @@
     min-width: 0;
   }
 
+  /* Y2K Retro Button Styles */
+  .btn-retro {
+    @apply px-6 py-3 font-bold rounded-xl border-4 border-primary text-primary bg-white;
+    font-family: "Fredoka", sans-serif;
+    box-shadow: 0 4px 0 rgba(0, 102, 255, 0.3);
+    transition: all 0.1s ease;
+  }
+
+  .btn-retro:hover {
+    @apply transform -translate-y-1;
+    box-shadow: 0 6px 0 rgba(0, 102, 255, 0.4);
+  }
+
+  .btn-retro:active {
+    @apply transform translate-y-1;
+    box-shadow: 0 2px 0 rgba(0, 102, 255, 0.2);
+  }
+
+  /* Chunky Slider Styles */
+  input[type="range"] {
+    @apply w-full h-3 rounded-full appearance-none cursor-pointer;
+    background: linear-gradient(to right, #0066FF, #FFD700);
+    border: 3px solid #0066FF;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    @apply w-8 h-8 rounded-full bg-white cursor-pointer;
+    border: 3px solid #0066FF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    @apply w-8 h-8 rounded-full bg-white cursor-pointer;
+    border: 3px solid #0066FF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Chunky Input Styles */
+  input[type="text"],
+  textarea,
+  select {
+    @apply border-4 border-primary rounded-xl px-4 py-3;
+    font-family: "Quicksand", sans-serif;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 0 rgba(0, 102, 255, 0.2);
+  }
+
+  input[type="text"]:focus,
+  textarea:focus,
+  select:focus {
+    @apply outline-none ring-4 ring-accent;
+    box-shadow: 0 6px 0 rgba(0, 102, 255, 0.3);
+  }
+
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem; /* 32px - desktop padding */
+      padding-left: 2rem;
       padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
+      max-width: 1280px;
     }
   }
 }
